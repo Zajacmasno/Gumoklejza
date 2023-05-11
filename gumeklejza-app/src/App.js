@@ -6,13 +6,13 @@ function App() {
     <div className="App">
       <header>
         <nav>
-          <div id="logo">
+          <div className="logo">
             <h1>LOGO</h1>
           </div>
-          <div id="PCA">
+          <div className="PCA">
             Products Contact About
           </div>
-          <div id="shopAcc">
+          <div className="shopAcc">
             Shop Account
           </div>
         </nav>
