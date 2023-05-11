@@ -97,7 +97,7 @@ section{
   background: black;
   overflow: hidden;
 }
-section .air{
+section .fala{
   position: absolute;
   bottom: 0;
   left: 0;
@@ -106,28 +106,28 @@ section .air{
   background: url(../photos/wave.png);
   background-size: 1000px 100px
 }
-section .air.air1{
+section .fala.fala1{
   animation: wave 30s linear infinite;
   z-index: 1000;
   opacity: 1;
   animation-delay: 0s;
   bottom: 0;
 }
-section .air.air2{
+section .fala.fala2{
   animation: wave2 15s linear infinite;
   z-index: 999;
   opacity: 0.5;
   animation-delay: -5s;
   bottom: 10px;
 }
-section .air.air3{
+section .fala.fala3{
   animation: wave 30s linear infinite;
   z-index: 998;
   opacity: 0.2;
   animation-delay: -2s;
   bottom: 15px;
 }
-section .air.air4{
+section .fala.fala4{
   animation: wave2 5s linear infinite;
   z-index: 997;
   opacity: 0.7;
