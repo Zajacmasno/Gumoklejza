@@ -50,22 +50,30 @@ nav {
   height: 20%;
   text-align: center;
 }
+
+.PCA{
+  margin: 20px;
+  font-size: 25px;
+  word-spacing: 45px;
+}
 .dontPanic {
   display: flex;
   width: 220px;
-  flex-direction: column;
+  flex-direction: column; /*nie wiem jak przestawic columne */
   font-size: 40px;
   font-weight:500;
   padding-left: 50px;
   padding-bottom: 200px;
 }
 #makeOrder {
-  height: 40px;
+  height: 60px;
   width: 100%;
+  font-size: 17px;
   border-radius: 4ch;
-  background-color: #019646;
+  border-style: none;
+  background-color: rgb(1, 150, 70);
   color: white;
-  background-color: #019646;
+  
 }
 .App-logo{
   display: flex;
@@ -74,6 +82,8 @@ nav {
 }
 .products{
   height: 500px;
+  display: flex;
+  justify-content: space-evenly;
 }
 footer{
   display: flex;
@@ -149,4 +159,43 @@ section .fala.fala4{
   100%{
     background-position-x: -1000px; 
   }
+}
+
+.lewy{ 
+  width: 13%;
+  height: 375px;
+  background-color: #fcfcfc;
+  margin-top: 50px;
+}
+
+.srodek{ 
+  width: 19%;
+  height: 475px;
+  background-color: #fcfcfc;
+  
+}
+
+.prawy{ 
+  width: 13%;
+  height: 375px;
+  background-color: #fcfcfc;
+  margin-top: 50px;
+}
+
+.maxlewo{
+  display: flex;
+
+  margin-top: 225px;
+  background-color: #fcfcfc;
+  width: 3%;
+  height: 50px;
+}
+
+.maxprawo{
+  display: flex;
+  justify-content:end;
+  margin-top: 225px;
+  background-color: #fcfcfc;
+  width: 3%;
+  height: 50px;
 }

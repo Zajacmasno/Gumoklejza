@@ -35,7 +35,13 @@ function App() {
           <p>Sets perfext for beginners, choose yours.</p>
         </div>
         <div className='products'>
-          dupa dupa 123
+        <div className="maxlewo"></div>
+         <div className='lewy'></div>
+         <div className='srodek'></div>
+         <div className='prawy'></div>
+        
+            
+            <div className="maxprawo"></div>
         </div>
         <div>
           <a>See More</a>
