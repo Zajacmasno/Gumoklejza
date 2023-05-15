@@ -56,6 +56,7 @@ nav {
   font-size: 25px;
   word-spacing: 45px;
 }
+
 .dontPanic {
   display: flex;
   width: 220px;
@@ -75,6 +76,14 @@ nav {
   color: white;
   
 }
+
+#makeOrder:hover {
+border: 1px solid white;
+height: 61px;
+width: 101%;
+font-weight: bold;
+}
+
 .App-logo{
   display: flex;
   text-align: start;
