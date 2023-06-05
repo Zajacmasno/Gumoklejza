@@ -89,11 +89,7 @@ font-weight: bold;
   text-align: start;
   margin: 0;
 }
-.products{
-  height: 500px;
-  display: flex;
-  justify-content: space-evenly;
-}
+
 footer{
   display: flex;
   width: 100%;
@@ -169,42 +165,55 @@ section .fala.fala4{
     background-position-x: -1000px; 
   }
 }
-
-.lewy{ 
-  width: 13%;
-  height: 375px;
-  background-color: #fcfcfc;
-  margin-top: 50px;
+.products{
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+<<<<<<< Updated upstream
 .srodek{ 
   width: 19%;
   height: 475px;
   background-color: #fcfcfc;
+=======
+.lewy,.maxlewo,#srodek,.prawy,.maxprawo{
+  margin: 15px;
+  background-color: slateblue;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+
+#srodek{ 
+  width: 400px;
+  height: 475px; 
+}
+
+.prawy,.lewy{ 
+  width: 250px;
+  height: 375px;
+>>>>>>> Stashed changes
   
 }
 
-.prawy{ 
-  width: 13%;
-  height: 375px;
-  background-color: #fcfcfc;
-  margin-top: 50px;
-}
 
-.maxlewo{
-  display: flex;
 
-  margin-top: 225px;
-  background-color: #fcfcfc;
-  width: 3%;
+.maxprawo,.maxlewo{
+  
+  width: 50px;
   height: 50px;
 }
 
-.maxprawo{
-  display: flex;
-  justify-content:end;
-  margin-top: 225px;
-  background-color: #fcfcfc;
-  width: 3%;
-  height: 50px;
+
+@media screen and (max-width:1033px){
+  .lewy,.prawy{
+    display: none;
+  }
 }
