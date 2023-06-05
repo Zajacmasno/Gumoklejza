@@ -172,13 +172,7 @@ section .fala.fala4{
   align-items: center;
 }
 
-<<<<<<< Updated upstream
-.srodek{ 
-  width: 19%;
-  height: 475px;
-  background-color: #fcfcfc;
-=======
-.lewy,.maxlewo,#srodek,.prawy,.maxprawo{
+.lewy,.maxlewo,.srodek,.prawy,.maxprawo{
   margin: 15px;
   background-color: slateblue;
   height: 100px;
@@ -188,10 +182,7 @@ section .fala.fala4{
 }
 
 
-
-
-
-#srodek{ 
+.srodek{ 
   width: 400px;
   height: 475px; 
 }
@@ -199,7 +190,6 @@ section .fala.fala4{
 .prawy,.lewy{ 
   width: 250px;
   height: 375px;
->>>>>>> Stashed changes
   
 }
 
