@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import { Link } from "react-router-dom"
 
 function App() {
   return (
     <div className="App">
       <section>
         <header>
-          <nav>
+          <nav className='NavBar'>
             <div className="logo">
               <h1>LOGO</h1>
             </div>
@@ -14,7 +15,6 @@ function App() {
               Products Contact About
             </div>
             <div className="shopAcc">
-            npm install react-router-domShop Account
             </div>
           </nav>
           <div className="dontPanic">
@@ -44,7 +44,7 @@ function App() {
             <div className="maxprawo"></div>
         </div>
         <div>
-          <a>See More</a>
+          <Link to="/sklep">see more</Link>
         </div>
       </div>
       <footer>
