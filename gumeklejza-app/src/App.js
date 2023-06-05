@@ -12,7 +12,7 @@ function App() {
               <h1>LOGO</h1>
             </div>
             <div className="PCA">
-              Products Contact About
+            <Link to="/produkty" id="link"> Products </Link> Contact About
             </div>
             <div className="shopAcc">
             </div>
@@ -44,7 +44,7 @@ function App() {
             <div className="maxprawo"></div>
         </div>
         <div>
-          <Link to="/sklep">see more</Link>
+          <Link to="/sklep" id="link">See more </Link>
         </div>
       </div>
       <footer>
