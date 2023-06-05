@@ -37,7 +37,7 @@ function App() {
         <div className='products'>
         <div className="maxlewo"></div>
          <div className='lewy'></div>
-         <span id="srodek"></span>
+         <span className="srodek"></span>
          <div className='prawy'></div>
         
             
