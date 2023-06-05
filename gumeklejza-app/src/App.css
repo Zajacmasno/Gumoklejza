@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .App {
   text-align: center;
   background-color: black;
@@ -74,14 +78,12 @@ nav {
   border-style: none;
   background-color: rgb(1, 150, 70);
   color: white;
-  
+  transition: background-color 1s;
 }
 
 #makeOrder:hover {
-border: 1px solid white;
-height: 61px;
-width: 101%;
-font-weight: bold;
+background-color: rgb(2, 99, 45);
+
 }
 
 .App-logo{
@@ -177,7 +179,7 @@ section .fala.fala4{
   margin-top: 50px;
 }
 
-.srodek{ 
+#srodek{ 
   width: 19%;
   height: 475px;
   background-color: #fcfcfc;
