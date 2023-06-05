@@ -64,7 +64,7 @@ nav {
 .dontPanic {
   display: flex;
   width: 220px;
-  flex-direction: column; /*nie wiem jak przestawic columne */
+  flex-direction: column; 
   font-size: 40px;
   font-weight:500;
   padding-left: 50px;
@@ -78,11 +78,11 @@ nav {
   border-style: none;
   background-color: rgb(1, 150, 70);
   color: white;
-  transition: background-color 1s;
+  transition: background-color 0.5s;
 }
 
 #makeOrder:hover {
-background-color: rgb(2, 99, 45);
+background-color: rgb(2, 83, 38);
 
 }
 
@@ -101,6 +101,8 @@ footer{
   display: flex;
   flex-direction: column;
   text-align: left;
+  padding-top: 100px;
+  padding-bottom: 20px;
 }
 .aboutUs, .safety, .delivery {
   padding-left: 10px;
@@ -208,4 +210,14 @@ section .fala.fala4{
   .lewy,.prawy{
     display: none;
   }
+}
+
+#link {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+}
+
+#link:hover {
+  color: rgba(255, 255, 255, 0.637)
 }

@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { Link } from "react-router-dom"
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
               <h1>LOGO</h1>
             </div>
             <div className="PCA">
-              Products Contact About
+            <Link to="/produkty" id="link"> Products </Link> Contact About
             </div>
             <div className="shopAcc">
               Shop Account
@@ -44,7 +45,7 @@ function App() {
             <div className="maxprawo"></div>
         </div>
         <div>
-          <a>See More</a>
+          <Link to="/sklep" id="link">See more </Link>
         </div>
       </div>
       <footer>
