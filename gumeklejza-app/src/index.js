@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import sklep from './pages/sklep';
+import Sklep from './pages/sklep';
 //import reportWebVitals from './reportWebVitals';
 import {
   createBrowserRouter,
@@ -16,8 +16,8 @@ const router = createBrowserRouter([
     element: <App/>,
   },
   {
-    path: "/sklep",
-    element: <sklep/>,
+    path: "sklep",
+    element: <Sklep/>,
   },
 ]);
 
