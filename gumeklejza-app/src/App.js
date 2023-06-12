@@ -1,23 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 import { Link } from "react-router-dom"
+import Nav from './components/nav';
+import Stopka from './components/stopka';
 
 function App() {
   return (
     <div className="App">
       <section>
         <header>
-          <nav>
-            <div className="logo">
-              <h1>LOGO</h1>
-            </div>
-            <div className="PCA">
-            <Link to="/sklep" id="link"> Products </Link> Contact About
-            </div>
-            <div className="shopAcc">
-            <Link to="/produkty" id="link"> Account </Link>
-            </div>
-          </nav>
+          <Nav></Nav>
           <div className="dontPanic">
             <p>Don't Panic,<br></br> it's Organic</p>
             <a href="#srodek"><button id="makeOrder">Make Order</button></a>
@@ -48,25 +40,7 @@ function App() {
           <Link to="/sklep" id="link">See more </Link>
         </div>
       </div>
-      <footer>
-        <div className='contact'>
-          <h2>CONTACT</h2>
-          <p>Owocowa 10a<br></br>80 - 120 Warsaw</p>
-          <p>505 505 050 <br></br> gumoklejza@gmail.com</p>
-        </div>
-        <div className='aboutUs'>
-          <h2>ABOUT US</h2>
-          <p></p>
-        </div>
-        <div className='safety'>
-          <h2>SAFETY</h2>
-          <p></p>
-        </div>
-        <div className='delivery'>
-          <h2>DELIVERY</h2>
-          <p></p>
-        </div>
-      </footer>
+      <Stopka></Stopka>
     </div>
   );
 }

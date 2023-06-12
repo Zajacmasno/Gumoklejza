@@ -1,11 +1,12 @@
 import React from 'react';
 import './pages.css';
-
+import Stopka from '../components/stopka.js';
+import Nav from '../components/nav';
 
 function sklep() {
     return (
         <div>
-            <div className="top"><h1>Products</h1></div>
+            <Nav></Nav>
             
             <div className="main">
                 <div className="row1">
@@ -19,7 +20,7 @@ function sklep() {
                     <div className="ciul">Cali Gold 19$</div>
                 </div>
             </div>
-            <div className="footer"></div>
+            <Stopka></Stopka>
         </div>
     )
 }
