@@ -6,7 +6,7 @@ import Nav from '../components/nav';
 function sklep() {
     return (
         <div>
-            <Nav></Nav>
+            <div className='headerSklep'><Nav></Nav></div>
             
             <div className="main">
                 <div className="row1">
