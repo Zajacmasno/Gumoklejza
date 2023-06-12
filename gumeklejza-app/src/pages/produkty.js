@@ -16,9 +16,7 @@ function produkty() {
                     <br></br> <br></br>
 
                     <button id="klikej">Sign In</button>
-                    <br></br> <br></br>
-                   
-               
+                    <br></br> <br></br>                  
                     <button id="klikej" onsubmit="console.log('You clicked submit.');">Create new Account</button>
                     
                 </div>

@@ -13,7 +13,7 @@ class Nav extends Component {
                     <Link to="/sklep" id="link"> Products </Link> Contact About
                 </div>
                 <div className="shopAcc">
-                    Shop Account
+                <Link to="/produkty" id="link"> Account </Link>
                 </div>
             </nav>
         )
