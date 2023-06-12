@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import Sklep from './pages/sklep';
 import Produkty from './pages/produkty';
+
 //import reportWebVitals from './reportWebVitals';
 import {
   createBrowserRouter,

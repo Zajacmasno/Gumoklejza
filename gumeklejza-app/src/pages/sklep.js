@@ -5,7 +5,7 @@ import './pages.css';
 function sklep() {
     return (
         <div>
-            <div className="top"><a className="products">Products</a> Main Koszyk</div>
+            <div className="top"><h1>Products</h1></div>
             
             <div className="main">
                 <div className="row1">

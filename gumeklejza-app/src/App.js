@@ -12,10 +12,10 @@ function App() {
               <h1>LOGO</h1>
             </div>
             <div className="PCA">
-            <Link to="/produkty" id="link"> Products </Link> Contact About
+            <Link to="/sklep" id="link"> Products </Link> Contact About
             </div>
             <div className="shopAcc">
-              Shop Account
+            <Link to="/produkty" id="link"> Account </Link>
             </div>
           </nav>
           <div className="dontPanic">
