@@ -10,7 +10,7 @@ class Nav extends Component {
                     <h1>LOGO</h1>
                 </div>
                 <div className="PCA">
-                    <Link to="/sklep" id="link"> Products </Link> Contact About
+                    <Link to="/sklep" id="link"> Products </Link> <a href="#contact">Contact</a> <a href="#contact">About</a>
                 </div>
                 <div className="shopAcc">
                 <Link to="/produkty" id="link"> Account </Link>

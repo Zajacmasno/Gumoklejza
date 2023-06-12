@@ -28,13 +28,13 @@ function App() {
           <p>Sets perfext for beginners, choose yours.</p>
         </div>
         <div className='products'>
-        <div className="maxlewo"></div>
+        
          <div className='lewy'></div>
          <div className='srodek' id='srodek'></div>
          <div className='prawy'></div>
         
             
-            <div className="maxprawo"></div>
+          
         </div>
         <div>
           <Link to="/sklep" id="link">See more </Link>
