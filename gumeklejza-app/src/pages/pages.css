@@ -1,6 +1,8 @@
 html {
     background-color: black;
     color: white;
+    padding: 0;
+    margin: 0;
 }
 
 .top {
@@ -31,5 +33,9 @@ html {
     display: flex;
     flex-direction: column;
 
+}
+.headerSklep{
+
+    padding-right: 20px;
 }
 
